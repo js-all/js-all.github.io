@@ -1,0 +1,16 @@
+@import url(http://fonts.googleapis.com/css?family=Geo&subset=latin);
+canvas {
+    display: block;
+    margin:auto;
+    width: 90%;
+    border-width: 5px;
+    margin-top: 0;
+    image-rendering: pixelated;
+    border-style: solid;
+    border-image:  linear-gradient( orange , yellow, green, cyan, blue, violet) 1;
+}
+
+body {
+    background-color: #222222;
+}
+
