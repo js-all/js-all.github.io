@@ -20,7 +20,7 @@ class rgb {
             if (alpha >= 0 & alpha <= 1) {
                 this.alpha = alpha;
             } else {
-                throw new Error("rgb, constructor: alpha params value must be betwin 0 and 1 (0 and 1 include)")
+                throw new Error("rgb, constructor: alpha params vaalue must be betwin 0 and 1 (0 and 1 include)")
             }
         } else {
             throw new TypeError("rgb, constructor: type of param alha must be number");
@@ -120,9 +120,15 @@ class rgb {
         let op = `color: ${this.value};background-color: ${this.value};`;
         let opp = op + 'border-top-left-radius:' + br + unit + ';border-top-right-radius:' + br + unit + ';';
         let oppp = op + 'border-bottom-left-radius:' + br + unit + ';border-bottom-right-radius:' + br + unit + ';';
+<<<<<<< HEAD
         console.log('%c      \n' +
                     '%c      \n' +
                     '%c      %c' +
+=======
+        console.log('%c_----_\n' +
+                    '%c......\n' +
+                    '%c-____-%c' +
+>>>>>>> c3357fbfc8fe246729173ea71520be9129ba0b1c
                     strr,
                     opp, op, oppp, '', ...logParam
                    );
